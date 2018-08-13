@@ -1,0 +1,61 @@
+html, body{
+	font-family: serif;
+	font-style: "Courgette";
+	background-color: #ffcccc;
+}
+
+header{
+	background-color: #ce4566;
+	text-align: center;
+	max-height: 650px;
+	padding-top: 40px;
+ }
+
+ h1{
+ 	font-size: 80px;
+ 	color: white;
+ 	padding-top: 0px;
+ 	font-style: 
+ }
+
+ header img{
+ 	border-radius: 200px;
+	max-height: 400px;
+	border: 14px solid #e395ba;
+ }
+
+ .content{
+ 	margin: 0 auto;
+ }
+
+img.big-image{
+	max-width: 100%;
+	max-height: 200px;
+	text-align: center;
+}
+
+p.caption{
+	font-size: 16px;
+	color: #f2f2f2;
+	font-style: italic;
+}
+
+footer{
+	margin-top: 20px;
+	padding: 40px 20px;
+	background-color: #ffe6e6;
+}
+
+
+footer ul{
+	text-align: center;
+}
+
+footer ul li{
+	display: inline-block;
+	margin: 0 5px;
+}
+/*<header>
+			<img src="img/profile.jpg">
+			<h1>PowerPuff Girls</h1>
+		</header>*/
