@@ -2,6 +2,7 @@ html, body{
 	font-family: "Courgette",serif;
 	font-style: "Courgette";
 	background-color: #ffcccc;
+	letter-spacing: 2px;
 }
 
 header{
@@ -30,11 +31,11 @@ header{
  .content{
  	margin: 0 auto;
  	text-align: center;
- 	max-width: 350px
+ 	max-width: 500px
  }
 
-div.big-image{
- 	margin-left: 50px;
+.big.image{
+ 	max-width: 100%;
 }
 
 p.caption{
@@ -43,6 +44,38 @@ p.caption{
 	font-style: italic;
 }
 
+.ppg ul li{
+	display: inline-block;
+    width: 20px;
+    margin-left: 300px;  
+    text-transform: uppercase;
+    font-size: 60px;
+    font-style: bold;
+    color: white;
+ }
+
+.blue{
+	text-shadow: -2px 2px lightblue;
+}
+
+.red{
+	text-shadow: -2px 2px orange;
+}
+
+.green{
+	text-shadow: -2px 2px green;
+}
+
+.characteristics ul li{
+	display: inline-block;
+    width: 0;
+    height: 100px;
+    margin-left: 350px;  
+    font-size: 20px:
+    font-style: bold;       
+}
+
+}
 
 footer{
 	margin-top: 20px;
