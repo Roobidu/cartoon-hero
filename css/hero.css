@@ -10,6 +10,7 @@ header{
 	text-align: center;
 	max-height: 650px;
 	padding-top: 40px;
+	max-width: 100%;
  }
 
  h1{
@@ -68,13 +69,15 @@ p.caption{
 
 .characteristics ul li{
 	display: inline-block;
-    width: 0;
     height: 100px;
-    margin-left: 350px;  
     font-size: 20px:
-    font-style: bold;       
+    font-style: bold;    
+    text-align: center;   
 }
 
+.blossom{
+	margin-left: 200px;
+	width: 40px;
 }
 
 footer{
